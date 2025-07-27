@@ -1,31 +1,63 @@
 # 🛒 Alura Store – Challenge ONE (Data Science)
 
-Este proyecto forma parte del programa **Oracle Next Education (ONE)** en conjunto con **Alura Latam**.  
-El objetivo es aplicar conceptos iniciales de análisis de datos en Python para evaluar el rendimiento de cuatro tiendas y ayudar al Sr. Juan a decidir cuál de ellas vender.
+Este repositorio contiene la resolución completa del primer desafío del programa **Oracle Next Education - Data Science**, desarrollado en el entorno de **Google Colab** y gestionado mediante **GitHub**.
 
 ---
 
-## 🎯 Objetivo del análisis
+## 🎯 Objetivo del Desafío
+Analizar los datos de ventas de cuatro tiendas de Alura Store para determinar cuál debería ser vendida, aplicando criterios cuantitativos y cualitativos, e integrando habilidades de manipulación de datos, visualización y análisis de negocio.
 
-Realizar un estudio comparativo entre las 4 tiendas disponibles, considerando los siguientes aspectos:
+---
 
-1. **Facturación total por tienda**
-2. **Categorías más populares**
-3. **Promedio de evaluación de los clientes**
-4. **Productos más y menos vendidos**
+## 📊 Criterios Evaluados
+Se utilizaron cinco criterios clave para evaluar el rendimiento de cada tienda. Cada criterio fue puntuado del 1 (peor) al 4 (mejor), en función del rendimiento relativo de las tiendas.
+
+1. **Facturación total**
+2. **Distribución de ventas por categoría**
+3. **Calificación promedio de los clientes**
+4. **Comportamiento extremo de productos vendidos**
 5. **Costo promedio de envío**
 
-Con esta información, se recomienda al Sr. Juan la tienda con menor desempeño para su venta estratégica.
+---
+
+## ⚖️ Sistema de Ponderación (β)
+Cada criterio fue ponderado según su impacto estratégico con un coeficiente cualitativo **β**, de acuerdo a la siguiente escala:
+
+- β = 1 → Bajo impacto
+- β = 2 → Impacto medio
+- β = 3 → Alto impacto
+
+### 📋 Betas asignados:
+
+| Criterio | Descripción                         | β |
+|----------|-------------------------------------|---|
+| 1        | Facturación total                   | 3 |
+| 2        | Ventas por categoría                | 2 |
+| 3        | Calificación promedio               | 3 |
+| 4        | Productos más y menos vendidos      | 2 |
+| 5        | Costo promedio de envío             | 3 |
 
 ---
 
-## 🧠 Herramientas y tecnologías utilizadas
+## 🧮 Cálculo del Puntaje Final
+Se asignó a cada tienda un puntaje en cada criterio (1 a 4), luego multiplicado por su beta correspondiente. La suma total de los valores ponderados representa el **puntaje final de cada tienda**:
 
-- Python 3.x
-- Pandas
-- Google Colab
-- Git y GitHub
+Puntaje Total = (C1 × β1) + (C2 × β2) + (C3 × β3) + (C4 × β4) + (C5 × β5)
+
 
 ---
 
+## 🥇 Resultado Final
+- **Tienda con mejor desempeño:** [Nombre de la tienda con mayor puntaje]
+- **Tienda con peor desempeño:** [Nombre de la tienda con menor puntaje]
+
+### ✅ Recomendación:
+Con base en los resultados, se recomienda **vender la tienda con peor desempeño**, optimizando así los recursos de la empresa y concentrando esfuerzos en las sucursales más rentables y competitivas.
+
+---
+
+## 👤 Autor
+**[Dr8man]**  
+Programa Oracle Next Education – Data Science  
+GitHub: [https://github.com/Dr8man](https://github.com/Dr8man)
 
