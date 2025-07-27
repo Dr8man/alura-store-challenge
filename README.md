@@ -24,10 +24,8 @@ Con esta información, se recomienda al Sr. Juan la tienda con menor desempeño 
 - Python 3.x
 - Pandas
 - Google Colab
-- Visualización de datos (opcional: Matplotlib / Seaborn)
 - Git y GitHub
 
 ---
 
-## 📁 Estructura del repositorio
 
